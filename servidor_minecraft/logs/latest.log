@@ -1,0 +1,940 @@
+[15:08:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[15:08:37] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[15:08:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[15:08:37] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[15:08:37] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1026-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[15:08:37] [main/INFO] [FML]: Searching /workspaces/lamole13.2/servidor_minecraft/./mods for mods
+[15:08:37] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.9.12.1.jar
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Bloodmoon-MC1.12.2-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod lumien.bloodmoon.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:08:37] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:08:37] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[15:08:37] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from DynamicSurroundings-1.12.2-3.6.3.jar
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:08:37] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Future-MC-0.2.21.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.9.1-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
+[15:08:37] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from MyServerIsCompatible-1.12.2-1.0.jar
+[15:08:37] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[15:08:37] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine-OptiFine-1.12.2_HD_U_G5.jar
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in wings-1.1.6-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod wings (me.paulf.wings.server.asm.plugin.WingsLoadingPlugin) is not signed!
+[15:08:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in themidnight-0.3.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:08:37] [main/WARN] [FML]: The coremod midnight (com.mushroom.midnight.core.MidnightLoadingPlugin) is not signed!
+[15:08:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:08:37] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[15:08:37] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/lamole13.2/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.9.12.1.jar Service=LaunchWrapper Env=SERVER
+[15:08:37] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
+[15:08:37] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[15:08:37] [main/WARN] [FML]: The coremod TransformLoader (org.orecruncher.dsurround.mixins.TransformLoader) is not signed!
+[15:08:37] [main/WARN] [FML]: The coremod com.focamacho.myserveriscompatible.asm.MSICCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:08:37] [main/WARN] [FML]: The coremod MSICCoreMod (com.focamacho.myserveriscompatible.asm.MSICCoreMod) is not signed!
+[15:08:37] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:08:37] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:08:37] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[15:08:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:08:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:08:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:08:37] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[15:08:37] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[15:08:37] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[15:08:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.settings.GameSettings, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.settings.GameSettings$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.settings.GameSettings$Options, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.LoadingScreenRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.util.ScreenShotHelper, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.FontRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.GuiIngame, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.GuiIngame$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.GuiOverlayDebug, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.GuiOverlayDebug$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.GuiSlot, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.GuiMainMenu, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.gui.GuiVideoSettings, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.model.TexturedQuad, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.model.ModelBox, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.model.ModelRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$4, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.particle.ParticleManager, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.particle.ParticleManager$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.particle.ParticleManager$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.particle.ParticleManager$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.particle.ParticleManager$4, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.entity.AbstractClientPlayer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BufferBuilder, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BufferBuilder$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BufferBuilder$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BufferBuilder$State, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer$4, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.ItemRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.ItemRenderer$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderGlobal, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderGlobal$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderGlobal$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderGlobal$ContainerLocalRenderInformation, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BlockFluidRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BlockModelRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BlockModelRenderer$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BlockModelRenderer$EnumNeighborInfo, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BlockModelRenderer$AmbientOcclusionFace, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BlockModelRenderer$VertexTranslations, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.BlockModelRenderer$Orientation, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.BakedQuad, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.BakedQuadRetextured, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.FaceBakery, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.FaceBakery$5, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.ItemOverrideList, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.chunk.ChunkRenderDispatcher, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$PendingUpload, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.chunk.RenderChunk, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.entity.RenderManager, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.entity.RenderItemFrame, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$9, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$10, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$4, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$5, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$6, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$7, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderItem$8, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.entity.RenderLivingBase, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.entity.RenderLivingBase$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.entity.layers.LayerArmorBase, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.LayeredColorMaskTexture, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.Stitcher, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.Stitcher$Holder, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.Stitcher$Slot, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureAtlasSprite, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureAtlasSprite$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureManager, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureManager$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureUtil, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.resources.ResourcePackRepository, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.resources.ResourcePackRepository$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.resources.ResourcePackRepository$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.resources.ResourcePackRepository$Entry, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.ModelRotation, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.ModelBakery, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.ModelBakery$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.ModelBakery$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.block.model.ModelBakery$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.server.integrated.IntegratedServer, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.server.integrated.IntegratedServer$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.server.integrated.IntegratedServer$2, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.server.integrated.IntegratedServer$3, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.OpenGlHelper, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.OpenGlHelper$1, but received non-empty
+[15:08:38] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.client.renderer.OpenGlHelper$FboMode, but received non-empty
+[15:08:38] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[15:08:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[15:08:39] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@17814b1c
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:08:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:08:39] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:08:39] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[15:08:39] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.util.text.TextComponentTranslation. This may cause patch issues
+[15:08:39] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.tileentity.CommandBlockBaseLogic. This may cause patch issues
+[15:08:39] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.item.ItemStack. This may cause patch issues
+[15:08:40] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.EntityLivingBase. This may cause patch issues
+[15:08:40] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.Entity. This may cause patch issues
+[15:08:40] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.nbt.NBTTagList. This may cause patch issues
+[15:08:40] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.player.EntityPlayerMP. This may cause patch issues
+[15:08:40] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[15:08:40] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[15:08:40] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[15:08:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[15:08:42] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[15:08:42] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:08:42] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[15:08:42] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[15:08:43] [Server thread/INFO] [FML]: Searching /workspaces/lamole13.2/servidor_minecraft/./mods for mods
+[15:08:43] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.9.12.1
+[15:08:43] [Server thread/WARN] [FML]: Mod bettermineshafts is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-2.2.1
+[15:08:43] [Server thread/WARN] [FML]: Mod blocklings is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0
+[15:08:44] [Server thread/INFO] [FML]: Disabling mod ctgui it is client side only.
+[15:08:44] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[15:08:44] [Server thread/ERROR] [FML]: Unable to construct net.minecraftforge.fml.common.Mod container
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_442]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_442]
+	at net.minecraftforge.fml.common.ModContainerFactory.build(ModContainerFactory.java:73) [ModContainerFactory.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:114) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.IllegalArgumentException: The modId Forgelin must be all lowercase.
+	at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:157) ~[FMLModContainer.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128) ~[FMLModContainer.class:?]
+	... 16 more
+[15:08:44] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[15:08:45] [Server thread/WARN] [FML]: Mod moartinkers is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.6.0
+[15:08:45] [Server thread/WARN] [FML]: Mod mobends is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.1
+[15:08:45] [Server thread/WARN] [FML]: Mod waystones is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.1.0
+[15:08:45] [Server thread/WARN] [FML]: Mod wings is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.6
+[15:08:45] [Server thread/INFO] [FML]: Forge Mod Loader has identified 89 mods to load
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for movillages: assets/movillages/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for bettercaves: assets/bettercaves/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for bettermineshafts: assets/bettermineshafts/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for buildcraftbuilders: assets/buildcraftbuilders/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for buildcraftcore: assets/buildcraftcore/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for buildcraftenergy: assets/buildcraftenergy/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for buildcraftfactory: assets/buildcraftfactory/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for buildcraftrobotics: assets/buildcraftrobotics/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for buildcraftsilicon: assets/buildcraftsilicon/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for buildcrafttransport: assets/buildcrafttransport/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for clumps: assets/clumps/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for cofhcore: assets/cofhcore/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for collective: assets/collective/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for crafttweakerjei: assets/crafttweakerjei/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for customizeddungeonloot: assets/customizeddungeonloot/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for ido: assets/ido/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for morpheus: assets/morpheus/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for msic: assets/msic/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for redstoneflux: assets/redstoneflux/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for roguelike: assets/roguelike/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for stg: assets/stg/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for treeharvester: assets/treeharvester/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for mowzies_wings: assets/mowzies_wings/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Missing English translation for bauble_wings: assets/bauble_wings/lang/en_us.lang
+[15:08:45] [Server thread/WARN] [FML]: Mod mobends_wings has been disabled through configuration
+[15:08:45] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[15:08:45] [Server thread/INFO] [FML]: FML has found a non-mod file forgelin-1.8.9-1.0.0-1.0.0-beta-4584.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[15:08:46] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, obfuscate, securitycraft, movillages, applecore, autoreglib, base, baubles, bettercaves, bettermineshafts, betternether, biomesoplenty, blocklings, bloodmoon, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, chancecubes, chesttransporter, chisel, clumps, cofhcore, cofhworld, collective, conarm, crafttweaker, crafttweakerjei, creativecore, customizeddungeonloot, disenchanter, dsurround, ebwizardry, epicfight, erbiumkeymod, forgelin, futuremc, grapplemod, gravestone, waila, iceandfire, ido, infernalmobs, ironchest, jei, journeymap, lycanitesmobs, mantle, moartinkers, mobends, morpheus, mowziesmobs, msic, naturescompass, omlib, openglider, openmodularturrets, playerrevive, potionfingers, redstoneflux, roguelike, scalinghealth, silentlib, simpledivegear, spartanshields, stg, tconstruct, thermalfoundation, travelersbackpack, treeharvester, walljump, waystones, mowzies_wings, bauble_wings, wings, llibrary, solcarrot, orelib, midnight] at CLIENT
+[15:08:46] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, obfuscate, securitycraft, movillages, applecore, autoreglib, base, baubles, bettercaves, bettermineshafts, betternether, biomesoplenty, blocklings, bloodmoon, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, chancecubes, chesttransporter, chisel, clumps, cofhcore, cofhworld, collective, conarm, crafttweaker, crafttweakerjei, creativecore, customizeddungeonloot, disenchanter, dsurround, ebwizardry, epicfight, erbiumkeymod, forgelin, futuremc, grapplemod, gravestone, waila, iceandfire, ido, infernalmobs, ironchest, jei, journeymap, lycanitesmobs, mantle, moartinkers, mobends, morpheus, mowziesmobs, msic, naturescompass, omlib, openglider, openmodularturrets, playerrevive, potionfingers, redstoneflux, roguelike, scalinghealth, silentlib, simpledivegear, spartanshields, stg, tconstruct, thermalfoundation, travelersbackpack, treeharvester, walljump, waystones, mowzies_wings, bauble_wings, wings, llibrary, solcarrot, orelib, midnight] at SERVER
+[15:08:47] [Server thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
+[15:08:47] [Server thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
+[15:08:47] [Server thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[15:08:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[15:08:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[15:08:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[15:08:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
+[15:08:47] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[15:08:48] [Server thread/WARN] [dsurround]: Invalid fingerprint detected!
+[15:08:50] [Server thread/ERROR] [FML]: The mod thermalfoundation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalFoundation-1.12.2-2.6.7.1-universal.jar, however there is no signature matching that description
+[15:08:50] [Server thread/WARN] [solcarrot]: Invalid Fingerprint!
+[15:08:50] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[15:08:50] [Server thread/INFO] [FML]: Found 2758 ObjectHolder annotations
+[15:08:50] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:08:50] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:08:50] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:08:50] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[15:08:50] [Server thread/INFO] [Obfuscate]: Successfully injected SyncedPlayerData capability
+[15:08:50] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: AHEAD Target: null
+[15:08:50] [Forge Version Check/INFO] [forge.VersionCheck]: [ebwizardry] Starting version check at https://github.com/Electroblob77/Wizardry/blob/1.12.2/.forge/update.json
+[15:08:51] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
+[15:08:51] [Server thread/INFO] [FML]: [MoVillages] Generated Village Customization Config!
+[15:08:51] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Found status: UP_TO_DATE Target: null
+[15:08:51] [Forge Version Check/INFO] [forge.VersionCheck]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.12.2
+[15:08:51] [Forge Version Check/INFO] [forge.VersionCheck]: [crafttweaker] Found status: BETA Target: null
+[15:08:51] [Forge Version Check/INFO] [forge.VersionCheck]: [disenchanter] Starting version check at https://raw.githubusercontent.com/Impelon/Disenchanter/meta/versions.json
+[15:08:51] [Forge Version Check/INFO] [forge.VersionCheck]: [disenchanter] Found status: UP_TO_DATE Target: null
+[15:08:51] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[15:08:51] [Server thread/INFO] [base]: Module JourneyMap has successfully loaded
+[15:08:51] [Server thread/INFO] [base]: Module Tool has successfully loaded
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: UP_TO_DATE Target: null
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [midnight] Starting version check at https://gist.githubusercontent.com/gegy1000/a3f1f593c43f88d7f01a3560ac32e216/raw/midnight_updates.json
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [orelib] Starting version check at https://raw.githubusercontent.com/OreCruncher/OreLib/master/version.json
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [orelib] Found status: UP_TO_DATE Target: null
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Found status: UP_TO_DATE Target: null
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [travelersbackpack] Found status: AHEAD Target: null
+[15:08:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:08:52] [Server thread/INFO] [BuildCraft]: 
+[15:08:52] [Server thread/INFO] [BuildCraft]: Starting BuildCraft 8.0.0
+[15:08:52] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[15:08:52] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[15:08:52] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[15:08:52] [Server thread/INFO] [BuildCraft]:   Branch HEAD
+[15:08:52] [Server thread/INFO] [BuildCraft]:   Commit e3a04685c81d1be08b18dbdcbaf62db903c1c224
+[15:08:52] [Server thread/INFO] [BuildCraft]:     Remove space.
+[15:08:52] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[15:08:52] [Server thread/INFO] [BuildCraft]: 
+[15:08:52] [Server thread/INFO] [BuildCraft]: Loaded Modules:
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - lib
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - core
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - builders
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - energy
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - factory
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - robotics
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - silicon
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - transport
+[15:08:52] [Server thread/INFO] [BuildCraft]:   - compat
+[15:08:52] [Server thread/INFO] [BuildCraft]: Missing Modules:
+[15:08:52] [Server thread/INFO] [BuildCraft]: 
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[15:08:53] [Server thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[15:08:53] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: AHEAD Target: null
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [gravestone] Starting version check at http://maxhenkel.de/update/gravestone.json
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: AHEAD Target: null
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+[15:08:53] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
+[15:08:53] [Server thread/INFO] [BuildCraft]: 
+[15:08:53] [Server thread/INFO] [BuildCraft]: Starting BuildCraftCompat 8.0.0
+[15:08:53] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[15:08:53] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[15:08:53] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[15:08:53] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
+[15:08:53] [Server thread/INFO] [BuildCraft]:   Commit 569b9b18af79486a3363cfa9fc626458d55fa499
+[15:08:53] [Server thread/INFO] [BuildCraft]:     Update BuildCraft and use the proper MJ text message in a couple of places.
+[15:08:53] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[15:08:53] [Server thread/INFO] [BuildCraft]: 
+[15:08:53] [Server thread/INFO] [BuildCraft]: [compat] Module list:
+[15:08:53] [Server thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+[15:08:53] [Server thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[15:08:53] [Server thread/INFO] [BuildCraft]: [compat]   + crafttweaker
+[15:08:53] [Server thread/INFO] [BuildCraft]: [compat]   x ic2 (It cannot load)
+[15:08:53] [Server thread/INFO] [FML]: Applying holder lookups
+[15:08:53] [Server thread/INFO] [FML]: Holder lookups applied
+[15:08:53] [Server thread/INFO] [CoFH World]: Registering default Feature Templates...
+[15:08:53] [Server thread/INFO] [CoFH World]: Registering default World Generators...
+[15:08:53] [Server thread/INFO] [CoFH World]: Verifying or creating base world generation directory...
+[15:08:53] [Server thread/INFO] [CoFH World]: Complete.
+[15:08:54] [Server thread/INFO] [orelib]: Loading language resources [orelib:en_us]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$profiles::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$commands::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$commands$calc::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$commands$ds::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$speechbubbles::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$player::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$sound::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$effects::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$biomes::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$aurora::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$general::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$fog::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$rain::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$logging::PATH]
+[15:08:54] [Server thread/WARN] [orelib]: Unable to locate field [org.orecruncher.dsurround.ModOptions$asm::PATH]
+[15:08:54] [Server thread/INFO] [orelib]: Loading language resources [dsurround:en_us]
+[15:08:54] [Server thread/INFO] [ebwizardry]: Setting up main config
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lectern`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `podium`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `egginice`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pixie_house`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jar`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_portal`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_spawner`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadidle`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadactive`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `myrmexcocoon`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforge`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgeinput`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgebrick`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/INFO] [Ice And Fire]: A raven flies from the north to the sea
+[15:08:55] [Server thread/INFO] [Ice And Fire]: A dragon whispers her name in the east
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `splinter`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `enderference`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `insatiable`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `magnetic`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `momentum`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `dot`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `splinter`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logInfo:278]: [LycanitesMobs] [Info] [] Config version created successfully.
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logInfo:278]: [LycanitesMobs] [Info] [] Config general created successfully.
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logInfo:278]: [LycanitesMobs] [Info] [] Config itemlists created successfully.
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item pale_soup from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_arisaur_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_yale_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_silex_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item explorers_risotto from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_silex_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item searing_taco from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_pinky_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_bobeko_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_pinky_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_ika_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item paleo_salad from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_chupacabra_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item tropical_curry from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_cephignis_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_ika_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item devil_lasagna from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_chupacabra_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item battle_burrito from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_aspid_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_aspid_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item blood_chili from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item bulwark_burger from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_maka_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item seashell_maki from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item amber_cake from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_arisaur_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_concapede_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item lapis_fish_and_chips from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item caecilian_ramen from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_concapede_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item peaks_kebab from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_krake_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_joust_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_maka_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_krake_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_joust_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item raw_yale_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item moss_pie from JSON...
+[15:08:55] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading item cooked_bobeko_meat from JSON...
+[15:08:55] [Server thread/INFO] [STDERR]: [com.lycanitesmobs.LycanitesMobs:logWarning:302]: [LycanitesMobs] [WARNING] [] Another fluid was registered as poison
+[15:08:55] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xtile.air@32767 = 6xitem.sugar@0
+[15:08:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lycanitesmobs.summoningpedestal`, expected `lycanitesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lycanitesmobs.equipmentforge`, expected `lycanitesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lycanitesmobs.equipment_infuser`, expected `lycanitesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lycanitesmobs.equipment_station`, expected `lycanitesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:56] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logInfo:278]: [LycanitesMobs] [Info] [] Config spawning created successfully.
+[15:08:56] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.lycanitesmobs.core.entity.BaseCreatureEntity from class com.lycanitesmobs.core.entity.AgeableCreatureEntity
+[15:08:56] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.lycanitesmobs.core.entity.BaseCreatureEntity from class com.lycanitesmobs.core.entity.AgeableCreatureEntity
+[15:08:56] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.lycanitesmobs.core.entity.BaseCreatureEntity from class com.lycanitesmobs.core.entity.TameableCreatureEntity
+[15:08:56] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.lycanitesmobs.core.entity.BaseCreatureEntity from class com.lycanitesmobs.core.entity.TameableCreatureEntity
+[15:08:56] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.lycanitesmobs.core.entity.BaseCreatureEntity from class com.lycanitesmobs.core.entity.TameableCreatureEntity
+[15:08:56] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.lycanitesmobs.core.entity.BaseCreatureEntity from class com.lycanitesmobs.core.entity.TameableCreatureEntity
+[15:08:56] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading 90 JSON Spawners...
+[15:08:56] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Complete! 90 JSON Spawners Loaded In Total.
+[15:08:56] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logInfo:278]: [LycanitesMobs] [Info] [] Config mobevents created successfully.
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logInfo:278]: [LycanitesMobs] [Info] [] Config worldgen created successfully.
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading 8 JSON Dungeon Themes...
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Complete! 8 JSON Dungeon Themes Loaded In Total.
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading 1 JSON Dungeon Structures...
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Complete! 1 JSON Dungeon Structures Loaded In Total.
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading 14 JSON Dungeon Sectors...
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Complete! 14 JSON Dungeon Sectors Loaded In Total.
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Loading 9 JSON Dungeon Schematics...
+[15:08:57] [Server thread/INFO] [STDOUT]: [com.lycanitesmobs.LycanitesMobs:logDebug:290]: [LycanitesMobs] [Debug] [] Complete! 9 JSON Dungeon Schematics Loaded In Total.
+[15:08:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `endermagnetic`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:57] [Server thread/INFO] [morpheus]: Loading configuration
+[15:08:57] [Server thread/INFO] [omlib]: Found the following mods: 
+[15:08:57] [Server thread/INFO] [Scaling Health]: Trying to change max health cap to 2048
+[15:08:57] [Server thread/INFO] [Scaling Health]: Config successfully loaded!
+[15:08:57] [Server thread/INFO] [Scaling Health]: Replacing Morpheus new day handler for dimension 0!
+[15:08:57] [Server thread/INFO] [Scaling Health]: Parent handler: net.quetzi.morpheus.world.DefaultOverworldHandler@dc3e6dd
+[15:08:57] [Server thread/WARN] [morpheus]: New day handler for dimension 0 has been replaced
+[15:08:57] [Server thread/INFO] [SIMPDIVEGEAR]: Hello Minecraft, how are you? Did you know that Tony loves Amy? 8 years and 6 months together. <3
+[15:08:57] [Server thread/INFO] [Spartan Shields]: Starting up Spartan Shields!
+[15:08:57] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectWater as a FluidEffect for water with the ID 0
+[15:08:57] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectLava as a FluidEffect for lava with the ID 1
+[15:08:57] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectMilk as a FluidEffect for milk with the ID 2
+[15:08:57] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectPotion as a FluidEffect for potion with the ID 3
+[15:08:57] [Server thread/INFO] [travelersbackpack]: Starting the Integration Handler.
+[15:08:57] [Server thread/INFO] [travelersbackpack]: Didn't find any possible mod integration(s)!
+[15:08:57] [Server thread/INFO] [Chisel]: Loading blocks...
+[15:08:57] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[15:08:57] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[15:08:57] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[15:08:58] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
+[15:08:58] [Server thread/INFO] [Chisel]: Loading Tile Entities...
+[15:08:58] [Server thread/INFO] [Chisel]: Tile Entities loaded.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitygavestone`, expected `gravestone`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[15:08:58] [Server thread/INFO] [FML]: Applying holder lookups
+[15:08:58] [Server thread/INFO] [FML]: Holder lookups applied
+[15:08:58] [Server thread/INFO] [Chisel]: Loading items...
+[15:08:58] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[15:08:58] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[15:08:58] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[15:08:58] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
+[15:08:59] [Server thread/INFO] [Spartan Shields]: Items Registered!
+[15:08:59] [Server thread/INFO] [FML]: Applying holder lookups
+[15:08:59] [Server thread/INFO] [FML]: Holder lookups applied
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome buildcraftenergy:oil_ocean, types have been assigned on a best-effort guess: [WATER, PLAINS, OCEAN]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome buildcraftenergy:oil_desert, types have been assigned on a best-effort guess: [PLAINS, DRY, HOT, SANDY]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:vigilant_forest, types have been assigned on a best-effort guess: [PLAINS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:black_ridge, types have been assigned on a best-effort guess: [PLAINS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:deceitful_bog, types have been assigned on a best-effort guess: [WATER, PLAINS, OCEAN]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:fungi_forest, types have been assigned on a best-effort guess: [PLAINS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:obscured_peaks, types have been assigned on a best-effort guess: [HILLS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:warped_fields, types have been assigned on a best-effort guess: [HILLS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:crystal_spires, types have been assigned on a best-effort guess: [PLAINS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:night_plains, types have been assigned on a best-effort guess: [PLAINS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:obscured_plateau, types have been assigned on a best-effort guess: [PLAINS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:phantasmal_valley, types have been assigned on a best-effort guess: [WATER, PLAINS, OCEAN]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:runebush_grove, types have been assigned on a best-effort guess: [PLAINS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:hilly_vigilant_forest, types have been assigned on a best-effort guess: [HILLS]
+[15:08:59] [Server thread/WARN] [FML]: No types have been added to Biome midnight:hilly_fungi_forest, types have been assigned on a best-effort guess: [HILLS]
+[15:08:59] [Server thread/INFO] [FML]: Applying holder lookups
+[15:08:59] [Server thread/INFO] [FML]: Holder lookups applied
+[15:08:59] [Server thread/INFO] [FML]: Applying holder lookups
+[15:08:59] [Server thread/INFO] [FML]: Holder lookups applied
+[15:08:59] [Server thread/INFO] [FML]: Injecting itemstacks
+[15:08:59] [Server thread/INFO] [FML]: Itemstack injection complete
+[15:08:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[15:08:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[15:08:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[15:08:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[15:09:00] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[15:09:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:09:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[15:09:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:09:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:09:01] [Server thread/ERROR] [FML]: Parsing error loading recipe buildcraftenergy:mj_dynamo
+com.google.gson.JsonSyntaxException: Unknown item 'buildcraftenergy:mj_dynamo'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:523) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_442]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+[15:09:01] [Server thread/ERROR] [FML]: Parsing error loading recipe lycanitesmobs:belpharm_break
+com.google.gson.JsonSyntaxException: Unknown item 'lycanitesmobs:belpharm'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.oredict.ShapelessOreRecipe.factory(ShapelessOreRecipe.java:152) ~[ShapelessOreRecipe.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_442]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+[15:09:01] [Server thread/INFO] [Chisel]: Loading recipes...
+[15:09:01] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[15:09:01] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[15:09:01] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[15:09:01] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
+[15:09:01] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[15:09:01] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `futuremc`. This could be a intended override, but in most cases indicates a broken mod.
+[15:09:01] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[15:09:01] [Server thread/INFO] [Spartan Shields]: Recipes added!
+[15:09:01] [Server thread/INFO] [FML]: Applying holder lookups
+[15:09:01] [Server thread/INFO] [FML]: Holder lookups applied
+[15:09:03] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the ocean oil biome.
+[15:09:03] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the desert oil biome.
+[15:09:03] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil spout generator
+[15:09:03] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil biome initiializer
+[15:09:03] [Server thread/INFO] [ebwizardry]: Setting up spells config for 188 spells
+[15:09:03] [Server thread/INFO] [ebwizardry]: Setting up artefacts config
+[15:09:03] [Server thread/INFO] [ebwizardry]: Setting up resistances config
+[15:09:03] [Server thread/INFO] [ebwizardry]: Loading spell properties from config folder
+[15:09:03] [Server thread/INFO] [ebwizardry]: Loading built-in spell properties for 189 spells in mod ebwizardry
+[15:09:03] [Server thread/WARN] [epicfight]: Failed to load custom item modid:registryname. Item not exist!
+[15:09:03] [Server thread/WARN] [epicfight]: Failed to load custom item modid:registryname. Item not exist!
+[15:09:03] [Server thread/WARN] [epicfight]: Failed to load custom item modid:registryname. Item not exist!
+[15:09:03] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(2, 1) invalid, 1 smaller than 2
+[15:09:03] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(4, 1) invalid, 1 smaller than 4
+[15:09:03] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(10, 1) invalid, 1 smaller than 10
+[15:09:03] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(9, 1) invalid, 1 smaller than 9
+[15:09:03] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(3, 2) invalid, 2 smaller than 3
+[15:09:03] [Server thread/INFO] [Ice And Fire]: The watcher waits on the northern wall
+[15:09:03] [Server thread/INFO] [Ice And Fire]: A daughter picks up a warrior's sword
+[15:09:03] [Server thread/INFO] [infernalmobs]: InfernalMobsCore load() completed! Modifiers ready: 27, config file at: /workspaces/lamole13.2/servidor_minecraft/config/infernalmobs.cfg
+[15:09:03] [Server thread/INFO] [Chisel]: Received 22 IMC messages from mod tconstruct.
+[15:09:03] [Server thread/INFO] [thermalfoundation]: Thermal Foundation: Tinkers' Construct Plugin Enabled.
+[15:09:03] [Server thread/INFO] [FML]: Injecting itemstacks
+[15:09:03] [Server thread/INFO] [FML]: Itemstack injection complete
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:anti_slab
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:bedrock
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:roosevelts_stick
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:bookshelves
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:carpet
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:cave_spider_web
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:chance_cube_cube
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:chat_message
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:d-rude_sandstorm
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:divine_boots
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:divine_chestplate
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:divine_sword
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:divine_leggings
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:divine_sword
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:enchanting
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:exp
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:exp_shower
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:explorer
+[15:09:04] [Server thread/WARN] [chancecubes]: A new sound was added after the sounds were registered and therefore the new sound could not be added!
+[15:09:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `entity.generic.explode`, expected `chancecubes`. This could be a intended override, but in most cases indicates a broken mod.
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:explosion
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:farmer
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:fighter
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:guardians
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:giant_chance_cube
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:giga_breaker
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:half_fishing_rod
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:have_another
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:hearts
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:help_me
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:horde
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:hot_tub
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:ice_cold
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:icosahedron
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:finding_marlin
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:mitas
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:finding_nemo
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:nether_star
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:notch
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:one_shot
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:ores_galore
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:poison
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:pssst
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:rancher
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:redstone_diamond
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:saplings
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:sethbling_reward
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:squid_horde
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:string
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:take_this
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:tnt_structure
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:watch_world_burn
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:fire_aspect_fire
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:wither_status_effect
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:wool
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:lava_ring
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:rain
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:silverfish_surround
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:fish_dog
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:bone_cat
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:xp_crystal
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:tnt_cat
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:slime_man
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:sail_away
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:witch
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:spawn_cluckington
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:spawn_jerry
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:spawn_glenn
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:spawn_dr_trayaurus
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:spawn_pickles
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:want_to_build_a_snowman
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:diamond_block
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:tnt_diamond
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:fake_tnt
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:invisible_ghasts
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:no
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:invisible_creeper
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:knockback_zombie
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:actual_invisible_ghast
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:fireworks
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:tnt_bats
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:nether_jelly_fish
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:pig_of_destiny
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:diy_pie
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:coal_to_diamonds
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:spongebob_squarepants
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:quidditch
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:one_man_army
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:cuteness
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:silvermite_stacks
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:invizible_silverfish
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:arrow_trap
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:trampoline
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:skeleton_bats
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:cookie_monster
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:path_to_succeed
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:beacon_build
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:half_heart
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:no_exp
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:smite
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:cookie-splosion
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:random_status_effect
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:arrow_spray
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:lingering_potions_ring
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:charged_creeper
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:disco
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:ender_crystal_timer
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:5_prongs
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:inventory_bomb
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:nuke
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:random_teleport
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:rotten_food
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:thrown_in_air
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:torches_to_creepers
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:traveller
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:troll_hole
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:saw_nothing_diamond
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:hand_enchant
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:anvil_rain
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:herobrine
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:surrounded
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:surrounded_creeper
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:wither
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:troll_tnt
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:wait_for_it
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:clear_inventory
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:item_of_destiny
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:juke_box
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:book_of_memes
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:table_flip
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:maze
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:one_is_lucky
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:sky_block
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:cake
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:item_rename
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:double_rainbow
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:wolves_to_creepers
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:did_you_know
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:armor_stand_armor
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:cats_and_dogs
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:item_chest
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:magic_feet
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:dig_build
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:cube_rename
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:countdown
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:mob_tower
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:monty_hall
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:matching
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:tic_tac_toe
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:boss_mimic
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:boss_evil_witch
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:boss_demonic_blaze
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:math
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:question
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:heads_or_tails
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:village
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:woodland_mansion
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:biodome
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:tnt_throw
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:throwables
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:ore_pillars
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:chuck_reverse
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:floor_is_lava
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:chunk_flip
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:ore_sphere
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:raining_potions
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:fluid_sphere
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:mixed_fluid_sphere
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:firework_show
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:sphere_snake
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:random_explosion
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:beacon_arena
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:world_infection
+[15:09:04] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: chancecubes:block_thrower
+[15:09:04] [Server thread/INFO] [chancecubes]: Adding minecraft:bedrock:0 to NRB array.
+[15:09:04] [Server thread/INFO] [chancecubes]: Death and destruction prepared! (And Cookies. Cookies were also prepared.)
+[15:09:04] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[15:09:06] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 1919.215422 ms
+[15:09:06] [Server thread/INFO] [Ice And Fire]: A brother bound to a love he must hide
+[15:09:06] [Server thread/INFO] [Ice And Fire]: The younger's armor is worn in the mind
+[15:09:06] [Server thread/INFO] [Ice And Fire]: A cold iron throne holds a boy barely grown
+[15:09:06] [Server thread/INFO] [Ice And Fire]: And now it is known
+[15:09:06] [Server thread/INFO] [Ice And Fire]: A claim to the prize, a crown laced in lies
+[15:09:06] [Server thread/INFO] [Ice And Fire]: You win or you die
+[15:09:06] [Server thread/INFO] [Ice And Fire]: Damn season 8 really sucked didn't it
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[15:09:06] [Server thread/WARN] [openmodularturrets]: Tried to add duplicate mob to mob list: ArmorStand
+[15:09:06] [Server thread/INFO] [SIMPDIVEGEAR]: Checking for compatibility modules
+[15:09:06] [Server thread/INFO] [cofhcore]: CoFH Core: Load Complete.
+[15:09:06] [Server thread/INFO] [CoFH World]: Accumulating world generation files from: "/workspaces/lamole13.2/servidor_minecraft/config/cofh/world"
+[15:09:06] [Server thread/INFO] [CoFH World]: Found a total of 3 world generation files.
+[15:09:07] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/01_thermalfoundation_ores.json":
+[15:09:07] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/02_thermalfoundation_oil.json":
+[15:09:07] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/03_thermalfoundation_clathrates.json":
+[15:09:07] [Server thread/INFO] [CoFH World]: CoFH World: Load Complete.
+[15:09:07] [Server thread/INFO] [dsurround]: Initializing registry [Dimension Registry]
+[15:09:07] [Server thread/INFO] [Waila]: Starting Waila...
+[15:09:07] [Server thread/INFO] [Waila]: Gathering annotated plugins...
+[15:09:07] [Server thread/INFO] [Waila]: Gathering wrapped IMC plugins...
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugins...
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at buildcraft.compat.module.waila.HWYLAPlugin
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at com.github.alexthe666.iceandfire.compat.waila.PluginIceAndFire
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at net.blay09.mods.waystones.compat.WailaProvider
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at net.geforcemods.securitycraft.compat.hudmods.WailaDataProvider
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at omtteam.omlib.compatibility.hwyla.OMLibWailaPlugin
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at slimeknights.tconstruct.plugin.waila.WailaRegistrar
+[15:09:07] [Server thread/INFO] [Waila]: Registering plugin at team.chisel.common.integration.waila.ChiselDataHandler
+[15:09:07] [Server thread/INFO] [Waila]: Starting Waila took 47.86 ms
+[15:09:07] [Server thread/INFO] [thermalfoundation]: [Whitelist] Reading established Whitelist from file.
+[15:09:07] [Server thread/INFO] [thermalfoundation]: Thermal Foundation: Load Complete.
+[15:09:07] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 89 mods
+[15:09:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[15:09:07] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[15:09:08] [Server thread/INFO] [FML]: Applying holder lookups
+[15:09:08] [Server thread/INFO] [FML]: Holder lookups applied
+[15:09:08] [Server thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[15:09:08] [Server thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[15:09:08] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6bdf08af)
+[15:09:08] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager]: Parsing error loading built-in advancement minecraft:recipes/redstone/trapdoor
+com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
+	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:171) ~[l$a.class:?]
+	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:147) ~[l$a.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
+	at net.minecraft.advancements.Advancement$Builder.func_192059_a(SourceFile:203) ~[i$a.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[ns$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[ns$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.func_188173_a(SourceFile:492) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_193839_a(SourceFile:532) ~[rc.class:?]
+	at net.minecraft.advancements.AdvancementManager.func_192777_a(AdvancementManager.java:184) [ns.class:?]
+	at net.minecraft.advancements.AdvancementManager.func_192779_a(AdvancementManager.java:68) [ns.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [ns.class:?]
+	at net.minecraft.world.WorldServer.func_175643_b(WorldServer.java:156) [oo.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:298) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+[15:09:08] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement biomesoplenty:recipes/redstone/trapdoor_from_bop_wood
+com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
+	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:171) ~[l$a.class:?]
+	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:147) ~[l$a.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
+	at net.minecraft.advancements.Advancement$Builder.func_192059_a(SourceFile:203) ~[i$a.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[ns$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[ns$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.func_188173_a(SourceFile:492) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188176_a(SourceFile:517) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188178_a(SourceFile:537) ~[rc.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:14.23.5.2860]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:14.23.5.2860]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:14.23.5.2860]
+	at net.minecraft.advancements.AdvancementManager.func_192779_a(AdvancementManager.java:69) [ns.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [ns.class:?]
+	at net.minecraft.world.WorldServer.func_175643_b(WorldServer.java:156) [oo.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:298) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+[15:09:08] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 915 advancements
+[15:09:08] [Server thread/INFO] [ebwizardry]: Loading custom spell properties for world world
+[15:09:08] [Server thread/INFO] [dsurround]: Creating STANDARD weather generator for dimension [overworld]
+[15:09:08] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6bdf08af)
+[15:09:08] [Server thread/INFO] [dsurround]: Creating NULL weather generator for dimension [the_end]
+[15:09:09] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[15:09:09] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6bdf08af)
+[15:09:09] [Server thread/INFO] [dsurround]: Creating NETHER weather generator for dimension [the_nether]
+[15:09:09] [Server thread/INFO] [FML]: Loading dimension -23 (world) (net.minecraft.server.dedicated.DedicatedServer@6bdf08af)
+[15:09:09] [Server thread/INFO] [dsurround]: Creating NULL weather generator for dimension [midnight]
+[15:09:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[15:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
+[15:09:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.656s)! For help, type "help" or "?"
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:grind_gears
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:crescent_hammer
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:multimeter
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:upgrade
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:signalum_security_lock
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:phyto_gro
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:hardened_glass
+[15:09:11] [Server thread/INFO] [STDOUT]: [chanceCubes.config.ConfigLoader:getRewardConfigStatus:137]: thermalfoundation:hardened_alloy_glass
+[15:09:11] [Server thread/INFO] [chancecubes]: Loaded custom rewards for the mod Thermal Foundation
+[15:09:11] [Server thread/INFO] [FML]: Unloading dimension 1
+[15:09:11] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:09:11] [Server thread/INFO] [FML]: Unloading dimension -23
+[15:09:30] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: This server has mods that require FML/Forge to be installed on the client: [AutoRegLib, B.A.S.E, Bauble Wings, Baubles, Better Nether, Biomes O' Plenty, Blocklings Mod, Bloodmoon, BuildCraft, BuildCraft Builders, BuildCraft Compat, BuildCraft Energy, BuildCraft Factory, BuildCraft Lib, BuildCraft Robotics, BuildCraft Silicon, BuildCraft Transport, Chance Cubes, Chest Transporter, Chisel, Clumps, CoFH Core, Construct's Armory, CraftTweaker JEI Support, CraftTweaker2, CreativeCore, Disenchanter, Electroblob's Wizardry, Epic Fight Mod, Erbium_key_mod, Future MC, Grappling hook mod, Gravestone Mod, Ice and Fire, Ido - 1.12 movement enhancements, Infernal Mobs, Iron Chest, LLibrary, Lycanites Mobs, Mantle, Midnight, Mo' Bends, Moar Tinkers, Mowzie's Mobs, Mowzie's Wings, MyServerIsCompatible, Nature's Compass, OMLib, Open Glider, Open Modular Turrets, Player Revive, Potion Fingers, Redstone Flux, Scaling Health, SecurityCraft, Silent Lib, Simple Dive Gear, Spartan Shields, Spice of Life: Carrot Edition, Thermal Foundation, Tinkers' Construct, Traveler's Backpack, Wall-Jump!, Waystones, Wings]
+[15:10:26] [Netty Epoll Server IO #6/INFO] [FML]: Disconnecting Player: This server has mods that require FML/Forge to be installed on the client: [AutoRegLib, B.A.S.E, Bauble Wings, Baubles, Better Nether, Biomes O' Plenty, Blocklings Mod, Bloodmoon, BuildCraft, BuildCraft Builders, BuildCraft Compat, BuildCraft Energy, BuildCraft Factory, BuildCraft Lib, BuildCraft Robotics, BuildCraft Silicon, BuildCraft Transport, Chance Cubes, Chest Transporter, Chisel, Clumps, CoFH Core, Construct's Armory, CraftTweaker JEI Support, CraftTweaker2, CreativeCore, Disenchanter, Electroblob's Wizardry, Epic Fight Mod, Erbium_key_mod, Future MC, Grappling hook mod, Gravestone Mod, Ice and Fire, Ido - 1.12 movement enhancements, Infernal Mobs, Iron Chest, LLibrary, Lycanites Mobs, Mantle, Midnight, Mo' Bends, Moar Tinkers, Mowzie's Mobs, Mowzie's Wings, MyServerIsCompatible, Nature's Compass, OMLib, Open Glider, Open Modular Turrets, Player Revive, Potion Fingers, Redstone Flux, Scaling Health, SecurityCraft, Silent Lib, Simple Dive Gear, Spartan Shields, Spice of Life: Carrot Edition, Thermal Foundation, Tinkers' Construct, Traveler's Backpack, Wall-Jump!, Waystones, Wings]
+[15:11:51] [Netty Epoll Server IO #7/INFO] [FML]: Disconnecting Player: This server has mods that require FML/Forge to be installed on the client: [AutoRegLib, B.A.S.E, Bauble Wings, Baubles, Better Nether, Biomes O' Plenty, Blocklings Mod, Bloodmoon, BuildCraft, BuildCraft Builders, BuildCraft Compat, BuildCraft Energy, BuildCraft Factory, BuildCraft Lib, BuildCraft Robotics, BuildCraft Silicon, BuildCraft Transport, Chance Cubes, Chest Transporter, Chisel, Clumps, CoFH Core, Construct's Armory, CraftTweaker JEI Support, CraftTweaker2, CreativeCore, Disenchanter, Electroblob's Wizardry, Epic Fight Mod, Erbium_key_mod, Future MC, Grappling hook mod, Gravestone Mod, Ice and Fire, Ido - 1.12 movement enhancements, Infernal Mobs, Iron Chest, LLibrary, Lycanites Mobs, Mantle, Midnight, Mo' Bends, Moar Tinkers, Mowzie's Mobs, Mowzie's Wings, MyServerIsCompatible, Nature's Compass, OMLib, Open Glider, Open Modular Turrets, Player Revive, Potion Fingers, Redstone Flux, Scaling Health, SecurityCraft, Silent Lib, Simple Dive Gear, Spartan Shields, Spice of Life: Carrot Edition, Thermal Foundation, Tinkers' Construct, Traveler's Backpack, Wall-Jump!, Waystones, Wings]
+[15:18:13] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: This server has mods that require FML/Forge to be installed on the client: [AutoRegLib, B.A.S.E, Bauble Wings, Baubles, Better Nether, Biomes O' Plenty, Blocklings Mod, Bloodmoon, BuildCraft, BuildCraft Builders, BuildCraft Compat, BuildCraft Energy, BuildCraft Factory, BuildCraft Lib, BuildCraft Robotics, BuildCraft Silicon, BuildCraft Transport, Chance Cubes, Chest Transporter, Chisel, Clumps, CoFH Core, Construct's Armory, CraftTweaker JEI Support, CraftTweaker2, CreativeCore, Disenchanter, Electroblob's Wizardry, Epic Fight Mod, Erbium_key_mod, Future MC, Grappling hook mod, Gravestone Mod, Ice and Fire, Ido - 1.12 movement enhancements, Infernal Mobs, Iron Chest, LLibrary, Lycanites Mobs, Mantle, Midnight, Mo' Bends, Moar Tinkers, Mowzie's Mobs, Mowzie's Wings, MyServerIsCompatible, Nature's Compass, OMLib, Open Glider, Open Modular Turrets, Player Revive, Potion Fingers, Redstone Flux, Scaling Health, SecurityCraft, Silent Lib, Simple Dive Gear, Spartan Shields, Spice of Life: Carrot Edition, Thermal Foundation, Tinkers' Construct, Traveler's Backpack, Wall-Jump!, Waystones, Wings]

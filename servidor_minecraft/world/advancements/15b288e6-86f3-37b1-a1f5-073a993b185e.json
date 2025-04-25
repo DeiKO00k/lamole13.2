@@ -1,0 +1,21 @@
+{
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-04-23 20:41:06 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2025-04-23 20:41:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2025-04-23 20:41:18 +0000",
+      "jungle": "2025-04-23 20:41:06 +0000"
+    },
+    "done": false
+  }
+}
