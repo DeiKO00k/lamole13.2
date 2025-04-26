@@ -1,0 +1,170 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  wings (wings-1.1.6-1.12.2.jar)
+  MSICCoreMod (MyServerIsCompatible-1.12.2-1.0.jar)
+  CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.12.1.jar)
+  midnight (themidnight-0.3.5.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.3.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  FutureMC (Future-MC-0.2.21.jar)
+Contact their authors BEFORE contacting forge
+
+// Why did you do that?
+
+Time: 4/26/25 3:50 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod futuremc (Future MC) requires [forgelin]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1026-azure
+	Java Version: 1.8.0_442, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2794257664 bytes (2664 MB) / 3126329344 bytes (2981 MB) up to 9544663040 bytes (9102 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx10G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 87 mods loaded, 86 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                    | Version              | Source                                         | Signature                                |
+	|:----- |:--------------------- |:-------------------- |:---------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft             | 1.12.2               | minecraft.jar                                  | None                                     |
+	| L     | mcp                   | 9.42                 | minecraft.jar                                  | None                                     |
+	| L     | FML                   | 8.0.99.99            | forge-1.12.2-14.23.5.2860.jar                  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge                 | 14.23.5.2860         | forge-1.12.2-14.23.5.2860.jar                  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | creativecoredummy     | 1.0.0                | minecraft.jar                                  | None                                     |
+	| L     | obfuscate             | 0.4.2                | minecraft.jar                                  | None                                     |
+	| L     | securitycraft         | v1.9.12.1            | [1.12.2] SecurityCraft v1.9.12.1.jar           | None                                     |
+	| L     | movillages            | 1.5.4                | [1.12]MoVillages-1.5.4.jar                     | None                                     |
+	| L     | applecore             | 3.4.0                | AppleCore-mc1.12.2-3.4.0.jar                   | None                                     |
+	| L     | autoreglib            | 1.3-32               | AutoRegLib-1.3-32.jar                          | None                                     |
+	| L     | base                  | 3.14.0               | base-1.12.2-3.14.0.jar                         | None                                     |
+	| L     | baubles               | 1.5.2                | Baubles-1.12-1.5.2.jar                         | None                                     |
+	| L     | bettercaves           | 1.12.2               | bettercaves-1.12.2-2.0.4.jar                   | None                                     |
+	| L     | bettermineshafts      | 1.12.2-2.2.1         | BetterMineshaftsForge-1.12.2-2.2.1.jar         | None                                     |
+	| L     | betternether          | 0.1.8.6              | betternether-0.1.8.6.jar                       | None                                     |
+	| L     | biomesoplenty         | 7.0.1.2445           | BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar  | None                                     |
+	| L     | blocklings            | 1.0                  | Blocklings 6.0.1_b - 1.12.2.jar                | None                                     |
+	| L     | bloodmoon             | 1.5.3                | Bloodmoon-MC1.12.2-1.5.3.jar                   | None                                     |
+	| L     | buildcraftcompat      | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcraftbuilders    | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcraftcore        | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcraftenergy      | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcraftfactory     | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcraftlib         | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcraftrobotics    | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcraftsilicon     | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | buildcrafttransport   | 8.0.0                | buildcraft-all-8.0.0.jar                       | None                                     |
+	| L     | chancecubes           | 1.12.2-5.0.2.385     | ChanceCubes-1.12.2-5.0.2.385.jar               | None                                     |
+	| L     | chesttransporter      | 2.8.8                | ChestTransporter-1.12.2-2.8.8.jar              | None                                     |
+	| L     | chisel                | MC1.12.2-1.0.2.45    | Chisel-MC1.12.2-1.0.2.45.jar                   | None                                     |
+	| L     | clumps                | 3.1.2                | Clumps-3.1.2.jar                               | None                                     |
+	| L     | cofhcore              | 4.6.6                | CoFHCore-1.12.2-4.6.6.1-universal.jar          | None                                     |
+	| L     | cofhworld             | 1.4.0                | CoFHWorld-1.12.2-1.4.0.1-universal.jar         | None                                     |
+	| L     | collective            | 3.0                  | collective-1.12.2-3.0.jar                      | None                                     |
+	| L     | conarm                | 1.2.5.10             | conarm-1.12.2-1.2.5.10.jar                     | None                                     |
+	| L     | crafttweaker          | 4.1.20               | CraftTweaker2-1.12-4.1.20.703.jar              | None                                     |
+	| L     | crafttweakerjei       | 2.0.3                | CraftTweaker2-1.12-4.1.20.703.jar              | None                                     |
+	| L     | creativecore          | 1.10.0               | CreativeCore_v1.10.71_mc1.12.2.jar             | None                                     |
+	| L     | customizeddungeonloot | 1.0.3                | Customized-Dungeon-Loot-1.12 -(v.1.0.3).jar    | None                                     |
+	| L     | disenchanter          | 1.8                  | disenchanter[1.12]1.8.jar                      | None                                     |
+	| L     | dsurround             | @VERSION@            | DynamicSurroundings-1.12.2-3.6.3.jar           | None                                     |
+	| L     | ebwizardry            | 4.3.14               | ElectroblobsWizardry-4.3.14.jar                | None                                     |
+	| L     | erbiumkeymod          | 1.0.0                | Erbium_key_mod 1.1.jar                         | None                                     |
+	| L     | futuremc              | 0.2.6                | Future-MC-0.2.21.jar                           | None                                     |
+	| L     | grapplemod            | 1.12.2-v13           | grappling_hook_mod-1.12.2-v13.jar              | None                                     |
+	| L     | gravestone            | 1.10.3               | gravestone-1.10.3 (1).jar                      | None                                     |
+	| L     | waila                 | 1.8.26               | Hwyla-1.8.26-B41_1.12.2.jar                    | None                                     |
+	| L     | iceandfire            | 1.9.1                | iceandfire-1.9.1-1.12.2.jar                    | None                                     |
+	| L     | ido                   | 2.0.0-B              | ido-1.12.2-2.0.0-B.jar                         | None                                     |
+	| L     | infernalmobs          | 1.7.6                | InfernalMobs-1.12.2.jar                        | None                                     |
+	| L     | ironchest             | 1.12.2-7.0.67.844    | ironchest-1.12.2-7.0.72.847.jar                | None                                     |
+	| L     | jei                   | 4.16.1.1013          | jei_1.12.2-4.16.1.1013.jar                     | None                                     |
+	| L     | journeymap            | 1.12.2-5.7.1p3       | journeymap-1.12.2-5.7.1p3.jar                  | None                                     |
+	| L     | lycanitesmobs         | 2.0.8.10 - MC 1.12.2 | lycanitesmobs-1.12.2-2.0.8.10.jar              | None                                     |
+	| L     | mantle                | 1.12-1.3.3.55        | Mantle-1.12-1.3.3.55.jar                       | None                                     |
+	| L     | moartinkers           | 0.6.0                | moartinkers-0.6.0.jar                          | None                                     |
+	| L     | mobends               | 1.2.1                | MoBends_1.12.2-1.2.1-19.12.21.jar              | None                                     |
+	| L     | morpheus              | 1.12.2-3.5.106       | Morpheus-1.12.2-3.5.106.jar                    | None                                     |
+	| L     | mowziesmobs           | 1.5.8                | mowziesmobs_1.12.2_1.5.8.jar                   | None                                     |
+	| L     | msic                  | 1.0                  | MyServerIsCompatible-1.12.2-1.0.jar            | None                                     |
+	| L     | naturescompass        | 1.8.5                | NaturesCompass-1.12.2-1.8.5.jar                | None                                     |
+	| L     | omlib                 | 3.1.5-256            | omlib-1.12.2-3.1.5-256.jar                     | None                                     |
+	| L     | openglider            | @VERSION@            | OpenGlider-1.12.1-1.1.0.jar                    | None                                     |
+	| L     | openmodularturrets    | 3.1.14-382           | openmodularturrets-1.12.2-3.1.14-382.jar       | None                                     |
+	| L     | playerrevive          | 1.0                  | PlayerRevive_v1.2.40_mc1.12.2.jar              | None                                     |
+	| L     | potionfingers         | r1.0-2               | PotionFingers-r1.0-2.jar                       | None                                     |
+	| L     | redstoneflux          | 2.1.1                | RedstoneFlux-1.12-2.1.1.1-universal.jar        | None                                     |
+	| L     | roguelike             | 1.8.0                | RoguelikeDungeons-1.12.2-1.8.0.jar             | None                                     |
+	| L     | scalinghealth         | 1.3.37               | ScalingHealth-1.12.2-1.3.42+147.jar            | None                                     |
+	| L     | silentlib             | 3.0.13               | SilentLib-1.12.2-3.0.14+168.jar                | None                                     |
+	| L     | simpledivegear        | 1.1.1                | SimpleDivingGear-1.1.1 mc 1.12.2.jar           | None                                     |
+	| L     | spartanshields        | 1.5.5                | SpartanShields-1.12.2-1.5.5.jar                | None                                     |
+	| L     | stg                   | 1.12.2-1.2.3         | stg-1.12.2-1.2.3.jar                           | None                                     |
+	| L     | tconstruct            | 1.12.2-2.13.0.183    | TConstruct-1.12.2-2.13.0.183.jar               | None                                     |
+	| L     | thermalfoundation     | 2.6.7                | ThermalFoundation-1.12.2-2.6.7.1-universal.jar | None                                     |
+	| L     | travelersbackpack     | 1.0.35               | TravelersBackpack-1.12.2-1.0.35.jar            | None                                     |
+	| L     | treeharvester         | 4.0                  | treeharvester_1.12.2-4.0.jar                   | None                                     |
+	| L     | walljump              | 1.3.2                | walljump-1.12.2-1.3.2.jar                      | None                                     |
+	| L     | waystones             | 4.1.0                | Waystones_1.12.2-4.1.0.jar                     | None                                     |
+	| L     | mowzies_wings         | 1.0.0                | wings-1.1.6-1.12.2.jar                         | None                                     |
+	| L     | bauble_wings          | 1.0.0                | wings-1.1.6-1.12.2.jar                         | None                                     |
+	| UD    | mobends_wings         | 1.0.0                | wings-1.1.6-1.12.2.jar                         | None                                     |
+	| L     | wings                 | 1.1.6                | wings-1.1.6-1.12.2.jar                         | None                                     |
+	| L     | llibrary              | 1.7.20               | llibrary-1.7.20-1.12.2.jar                     | None                                     |
+	| L     | solcarrot             | 1.8.4                | solcarrot-1.12.2-1.8.4.jar                     | None                                     |
+	| L     | orelib                | 3.6.0.1              | OreLib-1.12.2-3.6.0.1.jar                      | None                                     |
+	| L     | midnight              | 0.3.5                | themidnight-0.3.5.jar                          | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+wings (wings-1.1.6-1.12.2.jar)
+  me.paulf.wings.server.asm.WingsRuntimePatcher
+  me.paulf.wings.server.asm.mobends.WingsMoBendsRuntimePatcher
+MSICCoreMod (MyServerIsCompatible-1.12.2-1.0.jar)
+  
+CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  
+SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.12.1.jar)
+  
+midnight (themidnight-0.3.5.jar)
+  com.mushroom.midnight.core.transformer.MidnightClassTransformer
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+TransformLoader (DynamicSurroundings-1.12.2-3.6.3.jar)
+  
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  lumien.bloodmoon.asm.ClassTransformer
+FutureMC (Future-MC-0.2.21.jar)
+  
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
